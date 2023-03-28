@@ -1,0 +1,29 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 40px;
+}
+
+.btn-showAll {
+    margin-bottom: 2rem;
+    text-align: center;
+    display: block;
+}
+
+.btn {
+    background: #C70039;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #900C3F;
+}
