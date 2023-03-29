@@ -6,14 +6,17 @@
 .products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
-    margin: 40px;
+    gap: 30px;
+    /* margin: 40px; */
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .btn-showAll {
     margin-bottom: 2rem;
     text-align: center;
     display: block;
+    margin-top: 0;
 }
 
 .btn {

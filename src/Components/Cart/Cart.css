@@ -3,4 +3,18 @@
     padding: 20px;
     position: sticky;
     top: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.cart h4 {
+    margin-bottom: 0;
+}
+
+.cart hr {
+    border: 1px solid #a5a2a0;
+}
+
+.cart h6 {
+    font-size: 18px;
 }
